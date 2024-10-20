@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sujil S. - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Sujil S.</h1>
+        <p>(+91) 8139831540 ⋄ sujilmca@pg.cusat.ac.in</p>
+        <img src="images/profile.jpg" alt="Sujil's Photo" />
+        <p>Welcome to my portfolio! I am a passionate software developer with skills in C, C++, Python, Java, and more.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p><strong>Masters of Computer Application (2023 - 2025)</strong><br>Cochin University of Science and Technology, Kochi, Kerala</p>
+        <p><strong>Bachelor of Science in Electronics (2019 - 2022)</strong><br>Government College Chittur, Palakkad, Kerala</p>
+        <p><strong>GATE Qualified</strong><br>Qualified GATE in Computer Science Engineering, 2023</p>
+        
+        <h3>Technical Skills</h3>
+        <ul>
+            <li>Languages: C, C++, Python, Java, HTML/CSS</li>
+            <li>Software: MS Office, LaTeX</li>
+            <li>Data Structures and Algorithms (DSA)</li>
+            <li>Database Management System (DBMS)</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Salary Prediction (Python)</h3>
+            <p>Developed and implemented salary prediction models using Python and machine learning algorithms.</p>
+        </div>
+        <div class="project">
+            <h3>Library Management System (Java)</h3>
+            <p>Designed and developed a Library Management System using Java, with features like overdue notifications and improved search functionality.</p>
+        </div>
+        <div class="project">
+            <h3>Chatbot for Diet Plan Suggestions (IBM Watson Assistant)</h3>
+            <p>Created a chatbot for personalized diet suggestions, leveraging natural language processing and machine learning.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="thankYouMessage" style="display: none;">
+            <p>Thank you for your message!</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
